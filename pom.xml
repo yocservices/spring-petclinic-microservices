@@ -38,7 +38,10 @@
         <docker.image.dockerfile.dir>${basedir}</docker.image.dockerfile.dir>
         <docker.image.dockerize.version>v0.6.1</docker.image.dockerize.version>
         <docker.plugin.version>1.2.0</docker.plugin.version>
-    </properties>
+    
+  <sonar.organization>yocservices</sonar.organization>
+  <sonar.host.url>https://sonarcloud.io</sonar.host.url>
+</properties>
 
     <dependencyManagement>
         <dependencies>
